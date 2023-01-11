@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string[] array_first = new string[8] {"321", "89", "hello", "world", "computer", "167", "1875", "13"};
+string[] array_second = new string[array_first.Length];
