@@ -12,3 +12,13 @@ void Processing(string[] array1, string[] array_second)
         }
     }
 }
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+Processing(array_first, array_second);
+PrintArray(array_second);
